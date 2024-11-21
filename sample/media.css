@@ -1,0 +1,55 @@
+/* Mobile Phones (Portrait Orientation) */
+@media (max-width: 768px) {
+    .about-content {
+        flex-direction: column; /* Stack the image and text vertically */
+        align-items: center;
+    }
+
+    .text-content,
+    .image-content {
+        max-width: 100%; /* Allow full width for both text and image */
+        text-align: center;
+    }
+
+    .profile-photo {
+        max-width: 60%; /* Reduce the image size for smaller screens */
+        max-height: auto;
+    }
+
+    .text-content p {
+        font-size: 0.9rem; /* Slightly smaller font size */
+        line-height: 1.4;
+    }
+
+    .skills-container {
+        margin-top: 15px;
+    }
+
+    .skills-list {
+        flex-wrap: wrap; /* Wrap skills to prevent overflow */
+        gap: 10px;
+    }
+
+    .skills-list li {
+        padding: 8px 15px; /* Adjust padding for smaller screens */
+        font-size: 0.9rem;
+    }
+}
+
+@media (max-width: 768px) {
+    .contact-container {
+        padding: 10px;
+    }
+
+    .contact-left {
+        padding: 20px;
+    }
+
+    .contact-left-title h2 {
+        font-size: 24px;
+    }
+
+    .contact-btn {
+        font-size: 14px;
+    }
+}
