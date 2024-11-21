@@ -1,5 +1,8 @@
 /* Mobile Phones (Portrait Orientation) */
 @media (max-width: 768px) {
+    html{
+        overflow: visible;
+    }
     .about-content {
         flex-direction: column; /* Stack the image and text vertically */
         align-items: center;
